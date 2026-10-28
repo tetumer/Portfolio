@@ -41,7 +41,9 @@ function App() {
                   <h3 className="card-title">Medicore</h3>
                   <span className="card-tag">Full-stack</span>
                 </div>
-                <div className="card-media"></div>
+                <div className="card-media">
+                  <span className="card-glyph" aria-hidden="true">M</span>
+                </div>
                 <p className="card-outcome">One-line outcome goes here.</p>
                 <div className="card-pills">
                   <span className="pill">HTML</span>
@@ -58,7 +60,9 @@ function App() {
                   <h3 className="card-title">Hospital Management System</h3>
                   <span className="card-tag">Full-stack</span>
                 </div>
-                <div className="card-media"></div>
+                <div className="card-media">
+                  <span className="card-glyph" aria-hidden="true">H</span>
+                </div>
                 <p className="card-outcome">One-line outcome goes here.</p>
                 <div className="card-pills">
                   <span className="pill">React</span>
@@ -74,7 +78,9 @@ function App() {
                   <h3 className="card-title">MOI</h3>
                   <span className="card-tag">Full-stack</span>
                 </div>
-                <div className="card-media"></div>
+                <div className="card-media">
+                  <span className="card-glyph" aria-hidden="true">M</span>
+                </div>
                 <p className="card-outcome">One-line outcome goes here.</p>
                 <div className="card-pills">
                   <span className="pill">HTML</span>
@@ -91,7 +97,9 @@ function App() {
                   <h3 className="card-title">Study-buddy</h3>
                   <span className="card-tag">Full-stack</span>
                 </div>
-                <div className="card-media"></div>
+                <div className="card-media">
+                  <span className="card-glyph" aria-hidden="true">S</span>
+                </div>
                 <p className="card-outcome">One-line outcome goes here.</p>
                 <div className="card-pills">
                   <span className="pill">HTML</span>
@@ -100,52 +108,30 @@ function App() {
                 <div className="card-links">
                   <a className="card-link" href="#">GitHub ↗</a>
                 </div>
-            </article>
-              <article className="card">
-                <div className="card-header">
-                  <h3 className="card-title">Tools</h3>
-                  <span className="card-tag">Full-stack</span>
-                </div>
-                <div className="card-media"></div>
-                <p className="card-outcome">One-line outcome goes here.</p>
-                <div className="card-pills">
-                  <span className="pill">Python</span>
-                  <span className="pill">ML</span>
-                </div>
-                <div className="card-links">
-                  <a className="card-link" href="#">GitHub ↗</a>
-                </div>
-              </article>            
+            </article>        
           </div>
         </div>
       </section>
       <section className="skills reveal">
         <div className="container">
-          <h2>Skills</h2>
-
-          <div className="skill-group">
-            <p className="skill-label">Languages</p>
-            <div className="skill-row">
-              <span className="skill-pill">JavaScript</span>
-              <span className="skill-pill">C++</span>
-            </div>
-          </div>
-
-          <div className="skill-group">
-            <p className="skill-label">Frameworks</p>
-            <div className="skill-row">
-              <span className="skill-pill">React</span>
-              <span className="skill-pill">Node.js</span>
-            </div>
-          </div>
-
-          <div className="skill-group">
-            <p className="skill-label">Tools</p>
-            <div className="skill-row">
-              <span className="skill-pill">Git</span>
-              <span className="skill-pill">GitHub</span>
-            </div>
-          </div>
+          <h2>Stack</h2>
+            <p className="skill-strip">
+              <span className="skill-item">JavaScript</span>
+              <span className="skill-item">C++</span>
+              <span className="skill-item">Python</span>
+              <span className="skill-item">React</span>
+              <span className="skill-item">Node.js</span>
+              <span className="skill-item">Git</span>
+              <span className="skill-item">GitHub</span>
+            </p>
+            <p className="skill-strip skill-strip--muted">
+              <span className="skill-elsewhere">elsewhere —</span>
+              <span className="skill-item">drawing</span>
+              <span className="skill-item">photography</span>
+              <span className="skill-item">OSINT</span>
+              <span className="skill-item">Mandarin (learning)</span>
+              <span className="skill-item">worldbuilding</span>
+            </p>
         </div>
       </section>
     </main>
